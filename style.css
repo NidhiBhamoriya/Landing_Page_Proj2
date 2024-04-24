@@ -12,7 +12,7 @@ html, body{
 #bg{
     height: 100%;
     width: 100%;
-    background-color:lightgray
+    background-color:lightgray;
 }
 #main{
     position: absolute;
@@ -191,5 +191,70 @@ img{
         height: 25vmax;
         width: 18vmax;
         border-radius: 1.5vmax;
+    }
+}
+@media (max-height:400px){
+    #nav{
+        padding: 0px 10px;
+        height: 50px;
+        width: 100%;
+    }
+    
+    #nav-part1 h3{
+        display: none;
+    }
+    #nav-part1 i{
+        border: 0;
+        font-size: 4vmax;
+    }
+    #btm-right i{
+        font-size: 4vmax;
+        border-radius: 6px;
+        padding: 1px 1.8px;
+        background-color: black;
+        color: white;
+    }
+    #main h1{
+        font-size: 9vmax;
+        font-weight: 500;
+    }
+    #nav{
+        gap: 7px;
+        padding: 0px 10px;
+    }
+    #btn2{
+        display: none;
+    }
+    #nav-part3 button{
+        font-size: 2vmax;
+        font-weight: 400;
+        padding: 0.2vmax, 0.6vmax;
+        background-color: #dadada;
+        border-radius: 19px;
+        border: 2px solid black;
+    }
+    #nav-part2 i{
+        font-size: 20px;
+        padding: 1.2px 2.5px;
+        border-radius: 15px;
+        border: 1px solid black;
+        color: black;
+        height: 4vmax;
+    }
+    #nav-part2 h1{
+        font-size: 25px;
+    }
+    img{
+        height: 20vmax;
+        width: 15vmax;
+        border-radius: 1.5vmax;
+    }
+    #btm-right i{
+        font-size: 22px;
+    }
+    #btm-right {
+        position: absolute;
+        bottom: 9.5%;
+        right: 4%;
     }
 }
